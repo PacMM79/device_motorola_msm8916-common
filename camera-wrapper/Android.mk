@@ -6,8 +6,11 @@ LOCAL_C_INCLUDES := \
     frameworks/native/include/media/openmax \
     system/media/camera/include
 
-LOCAL_SRC_FILES := \
-    CameraWrapper.cpp
+ifeq ($(filter lux harpia,$(TARGET_DEVICE)),)
+LOCAL_SRC_FILES := CameraWrapper.cpp
+else
+LOCAL_SRC_FILES := CameraWrapper2.cpp
+endif
 
 LOCAL_SHARED_LIBRARIES := \
     libhardware \
