@@ -174,6 +174,17 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
      charger_res_images
 
+# Google Permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/pixel_2016_exclusive.xml:system/etc/permissions/pixel_2016_exclusive.xml \
+    $(LOCAL_PATH)/permissions/pixel_2017_exclusive.xml:system/etc/permissions/pixel_2017_exclusive.xml \
+    $(LOCAL_PATH)/permissions/pixel_2017.xml:system/etc/permissions/pixel_2017.xml \
+    $(LOCAL_PATH)/permissions/pixel_2018_exclusive.xml:system/etc/permissions/pixel_2018_exclusive.xml \
+    $(LOCAL_PATH)/permissions/pixel_experience_2018.xml:system/etc/permissions/pixel_experience_2018.xml \
+    $(LOCAL_PATH)/permissions/nexus.xml:system/etc/permissions/nexus.xml \
+    $(LOCAL_PATH)/permissions/google_build.xml:system/etc/permissions/google_build.xml \
+    $(LOCAL_PATH)/permissions/google-hiddenapi-package-whitelist.xml:system/etc/sysconfig/google-hiddenapi-package-whitelist.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
