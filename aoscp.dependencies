@@ -1,0 +1,13 @@
+[
+  {
+    "repository":  "kernel_motorola_msm8916",
+    "target_path": "kernel/motorola/msm8916",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "remote":      "aoscp"
+  }
+]
+
