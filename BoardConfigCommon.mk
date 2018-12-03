@@ -110,7 +110,6 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 OVERRIDE_RS_DRIVER := libRSDriver_adreno.so
 TARGET_USES_ION := true
 TARGET_USES_NEW_ION_API :=true
-TARGET_USES_GRALLOC1 := true
 TARGET_USES_QCOM_DISPLAY_PP := true
 
 # Exclude serif fonts for saving system.img size.
@@ -182,6 +181,9 @@ TARGET_LD_SHIM_LIBS := \
     /system/lib/libmdmcutback.so|libqsap_shim.so \
     /system/vendor/lib/libmdmcutback.so|libqsap_shim.so \
     /system/lib/libjustshoot.so|libjustshoot_shim.so
+
+# Peripheral manager
+TARGET_PER_MGR_ENABLED := true
 
 # Power
 TARGET_HAS_NO_WLAN_STATS := true
