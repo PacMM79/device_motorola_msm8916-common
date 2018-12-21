@@ -99,8 +99,7 @@ PRODUCT_PACKAGES += \
     libc_util \
     libshims_camera \
     libshims_sensorlistener \
-    Snap \
-    GoogleCameraMod \
+    Camera2 \
     camera.device@1.0-impl \
     camera.device@3.2-impl \
     android.hardware.camera.provider@2.4-impl \
@@ -202,10 +201,6 @@ PRODUCT_PACKAGES += \
 # Disable Vulkan
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.graphics.vulkan.disable=true
-
-# LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
 
 # Media
 PRODUCT_COPY_FILES += \
