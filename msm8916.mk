@@ -170,6 +170,10 @@ PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
     android.hardware.health@2.0-service
 
+# Healthd packages
+PRODUCT_PACKAGES += \
+     charger_res_images
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
