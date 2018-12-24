@@ -53,6 +53,9 @@ debug.cpurend.vsync=false
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
 
+# Force disable blank
+debug.force_no_blanking=true
+
 # FRP
 #ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
