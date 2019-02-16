@@ -185,6 +185,47 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/google_build.xml:system/etc/permissions/google_build.xml \
     $(LOCAL_PATH)/permissions/google-hiddenapi-package-whitelist.xml:system/etc/sysconfig/google-hiddenapi-package-whitelist.xml
 
+# Motorola Permissions
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/com.motorola.actions.perdefs.2017.xml:system/etc/permissions/com.motorola.actions.perdefs.2017.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.actions.perdefs.xml:system/etc/permissions/com.motorola.actions.perdefs.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.android.settings.shared.xml:system/etc/permissions/com.motorola.android.settings.shared.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.android.subsidyutils.xml:system/etc/permissions/com.motorola.android.subsidyutils.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.aov.xml:system/etc/permissions/com.motorola.aov.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.arselfie.xml:system/etc/permissions/com.motorola.arselfie.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.bettertogether.xml:system/etc/permissions/com.motorola.bettertogether.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.camera.xml:system/etc/permissions/com.motorola.camera.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.camera2.xml:system/etc/permissions/com.motorola.camera2.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.cameraone.xml:system/etc/permissions/com.motorola.cameraone.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.dtv.xml:system/etc/permissions/com.motorola.dtv.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.easyprefix.xml:system/etc/permissions/com.motorola.easyprefix.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.faceunlock.xml:system/etc/permissions/com.motorola.faceunlock.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.frameworks.core.addon.xml:system/etc/permissions/com.motorola.frameworks.core.addon.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.gallery.xml:system/etc/permissions/com.motorola.gallery.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.hardware.dtv.xml:system/etc/permissions/com.motorola.hardware.dtv.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.imager.evert.xml:system/etc/permissions/com.motorola.imager.evert.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.launcher3.gridcustomization.xml:system/etc/permissions/com.motorola.launcher3.gridcustomization.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.launcher3.twoline.xml:system/etc/permissions/com.motorola.launcher3.twoline.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.launcher3.xml:system/etc/permissions/com.motorola.launcher3.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.livestream.xml:system/etc/permissions/com.motorola.livestream.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.moto.xml:system/etc/permissions/com.motorola.moto.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.motoalexa.xml:system/etc/permissions/com.motorola.motoalexa.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.motodisplay.xml:system/etc/permissions/com.motorola.motodisplay.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.motokey.xml:system/etc/permissions/com.motorola.motokey.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.motosignature.xml:system/etc/permissions/com.motorola.motosignature.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.motosound.xml:system/etc/permissions/com.motorola.motosound.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.msimsettings.xml:system/etc/permissions/com.motorola.msimsettings.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.photoeditor.xml:system/etc/permissions/com.motorola.photoeditor.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.software.fmradioservice.xml:system/etc/permissions/com.motorola.software.fmradioservice.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.software.guideme.xml:system/etc/permissions/com.motorola.software.guideme.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.software.mya.xml:system/etc/permissions/com.motorola.software.mya.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.software.storageoptimizer.xml:system/etc/permissions/com.motorola.software.storageoptimizer.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.software.x_line.xml:system/etc/permissions/com.motorola.software.x_line.xml \
+    $(LOCAL_PATH)/permissions/com.motorola.timeweatherwidget.library.xml:system/etc/permissions/com.motorola.timeweatherwidget.library.xml \
+    $(LOCAL_PATH)/permissions/product_feature_evert.xml:system/etc/permissions/product_feature_evert.xml \
+    $(LOCAL_PATH)/permissions/product_feature_montana.xml:system/etc/permissions/product_feature_montana.xml \
+    $(LOCAL_PATH)/permissions/product_feature_nash.xml:system/etc/permissions/product_feature_nash.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.0-impl \
