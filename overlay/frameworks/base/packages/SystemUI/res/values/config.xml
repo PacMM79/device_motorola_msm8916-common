@@ -47,6 +47,9 @@
         <item>50</item> <!-- 3: HIGH -->
         <item>100</item> <!-- 4: SUN -->
     </integer-array>
+
+    <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
+    <bool name="doze_pickup_performs_proximity_check">true</bool>
     
     <!-- If true, enable the advance anti-falsing classifier on the lockscreen. On some devices it
         does not work well, particularly with noisy touchscreens. Note that disabling it may
